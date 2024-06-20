@@ -1,0 +1,14 @@
+export { default as Homepage } from "./Homepage";
+export { default as LoginPage } from "./Login";
+export { default as SignupPage } from "./Signup";
+export { default as Verify } from "./Verify";
+export { default as Loading } from "./loader";
+export { default as ProfileDetails } from "./profile/ProfileDetails";
+export { default as ProfileUpdate } from "./profile/ProfileUpdate";
+export { default as PasswrodChange } from "./profile/PasswrodChange";
+export { default as Tabs } from "./profile/Tabs";
+export { default as socialLogin } from "./socialLogin/index";
+export { default as Contactpage } from "./Contactpage";
+export { default as Aboutpage } from "./Aboutpage";
+export { default as Coursepage } from "./Coursepage";
+export { default as Cart } from "./Cart";

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100
+}
+html{
+  scroll-behavior: smooth;
+}
+.form_control {
+    @apply border-2 block border-t-0 border-l-0 border-r-0 w-full p-2
+    focus-visible:outline-none focus-visible:border-y-red-600
+}
+.btn-primary {
+    @apply my-12 justify-center flex items-center py-3 w-full rounded-3xl bg-orange-500 text-white shadow-2xl
+}
+
+.btn-primary:hover{
+    @apply bg-orange-400 transition-colors
+}
+
+
+.loader {
+    border-top-color: #ffffff;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Pagination Section Start */
+
+  .active>.page-link{
+    background:  #140342;
+    color:  white;
+  } 
+  .disabled>.page-link{
+    background:  rgba(63, 63, 63, 0.089);
+  }
+  /* Pagination Section End */
+  
+  .ant-picker-panel-container .ant-picker-ok button{
+    background: #140342!important;
+    color: #ffffff!important;
+  }
